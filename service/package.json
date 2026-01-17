@@ -1,0 +1,22 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "A standard backend API server using Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "import:data": "node scripts/importWithTSX.js",
+    "import:json": "node scripts/importFromJSON.js",
+    "import:direct": "node scripts/importDataDirect.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.22",
+    "tsx": "^4.21.0"
+  }
+}
