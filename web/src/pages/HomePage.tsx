@@ -5,7 +5,7 @@ import { ExamDatePicker } from '../components/ExamDatePicker';
 import { TargetScorePicker } from '../components/TargetScorePicker';
 import { CheckInModal } from '../components/CheckInModal';
 
-export function HomePage() {
+export default function HomePage() {
   const navigate = useNavigate();
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [showScorePicker, setShowScorePicker] = useState(false);

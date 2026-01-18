@@ -5,7 +5,7 @@ import { part2PlaceTopics } from '../data/part2PlaceData';
 import { part2EventTopics } from '../data/part2EventData';
 import { useState, useEffect, useRef, Fragment } from 'react';
 
-export function Part2TopicList() {
+export default function Part2TopicList() {
   const navigate = useNavigate();
   const { category } = useParams<{ category: string }>();
   const [examTakers, setExamTakers] = useState<Record<string, number>>({});

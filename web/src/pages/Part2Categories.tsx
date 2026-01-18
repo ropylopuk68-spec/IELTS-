@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Users, MapPin, Calendar, ChevronDown } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
-export function Part2Categories() {
+export default function Part2Categories() {
   const navigate = useNavigate();
   const audioContextRef = useRef<AudioContext | null>(null);
   const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 
-export function TopicDetail() {
+export default function TopicDetail() {
   const { topicId } = useParams();
   return (
     <div className="p-8 max-w-4xl mx-auto">

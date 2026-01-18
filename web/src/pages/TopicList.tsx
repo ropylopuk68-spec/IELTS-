@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 
-export function TopicList() {
+export default function TopicList() {
   const { partNumber } = useParams();
   return (
     <div className="p-8 max-w-4xl mx-auto">

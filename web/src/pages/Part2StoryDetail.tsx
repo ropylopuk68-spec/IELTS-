@@ -8,7 +8,7 @@ import { part2EventTopics, Part2Topic as EventTopic } from '../data/part2EventDa
 // Union type for all Part2 topics
 type Part2Topic = PeopleTopic | PlaceTopic | EventTopic;
 
-export function Part2StoryDetail() {
+export default function Part2StoryDetail() {
   const navigate = useNavigate();
   const { category, topicId } = useParams();
   const [expandedTopicId, setExpandedTopicId] = useState<string | null>(null);

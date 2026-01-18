@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export function Part3Home() {
+export default function Part3Home() {
   return (
     <div className="p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">Part 3 — Discussion Topics</h1>
