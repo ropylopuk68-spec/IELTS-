@@ -1,5 +1,5 @@
 {
-  "name": "service",
+  "name": "strapi-app",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -27,18 +27,13 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=20.0.0 <=24.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "939f33d7-d398-4ef0-9f4c-158213514b1a",
-    "installId": "931e384adaf457666c6a00a4cb6f69647be96d223a99cad38360ca6b2b27b19e"
+    "uuid": "0b4ffc5a-4d08-4c87-bc1a-d576ece0a9fd",
+    "installId": "e1710842b378447da04a1a62055c132b262c2437d3f5c1db13e536bb331fddcc"
   }
 }
