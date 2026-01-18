@@ -167,7 +167,7 @@ export default function HomePage() {
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Stats Module - Top Left Corner - No Background */}
-        <div className="fixed top-6 left-6 z-50">
+  <div className="fixed top-16 left-6 z-30">
           <div className="flex items-center gap-6">
             {/* Target Score */}
             <button
