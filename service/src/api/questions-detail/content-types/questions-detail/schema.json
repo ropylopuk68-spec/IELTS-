@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions_details",
+  "info": {
+    "singularName": "questions-detail",
+    "pluralName": "questions-details",
+    "displayName": "questions_detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question_text_en": {
+      "type": "text"
+    },
+    "question_text_cn": {
+      "type": "text"
+    },
+    "audio_url": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "high_score_answer": {
+      "type": "json"
+    },
+    "explanation": {
+      "type": "json"
+    },
+    "keywords": {
+      "type": "blocks"
+    }
+  }
+}

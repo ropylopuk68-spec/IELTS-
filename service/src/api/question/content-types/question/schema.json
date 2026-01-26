@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic_name": {
+      "type": "string"
+    },
+    "topic_type": {
+      "type": "string"
+    },
+    "question_count": {
+      "type": "integer"
+    },
+    "questions_detail": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::questions-detail.questions-detail"
+    }
+  }
+}
